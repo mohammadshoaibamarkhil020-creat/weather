@@ -1,9 +1,7 @@
 import React from "react";
-
-const sun =
-  "https://assets.api.uizard.io/api/cdn/stream/e555eccb-fbe4-4a3c-8917-933a41798140.png";
-const suncloud =
-  "https://assets.api.uizard.io/api/cdn/stream/d12bc406-1c84-42b5-9f37-4d52460d0521.png";
+import sun from '../assets/sun.png'
+import suncloud from '../assets/suncloud.png'
+ 
 
 const cards = [
   {
@@ -36,7 +34,7 @@ function Cityfirst() {
     <div className="flex flex-col justify-around h-[85%]  w-full gap-2 ">
       {cards.map((card) => (
         
-          <div className="flex h-full justify-between px-2 rounded-2xl items-center active:bg-secondary hover:bg-primary bg-secondary">
+          <div className="flex h-full justify-between px-2 rounded-2xl items-center active:bg-secondary hover:bg-primary transition  ease-in-out duration-500 bg-secondary">
             <div className=" w-[30%] flex items-center gap-14 ">
               <img src={card.img} alt="" width={80} />
               <div>

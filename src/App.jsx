@@ -1,9 +1,8 @@
 import { createBrowserRouter ,RouterProvider } from "react-router-dom";
 import Weathar from "./pags/weathar";
-
 import Welcome from "./pags/welcome";
 import Lauout from "./pags/lauout";
-import Citi from "./pags/citi";
+import Cities from './pags/citi'
 import Map from "./pags/map"
 import Setting from "./pags/setting";
 
@@ -23,7 +22,7 @@ const App = () => {
         },
         {
           path:"/main/cities",
-          element:<Citi/>
+          element:<Cities/>
         },
         {
           path : "/main/map",

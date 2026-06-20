@@ -6,7 +6,7 @@ const Lauout = () => {
   return (
     <div className='bg-primary flex items-center  justify-center '>
         
-        <Header/>
+        <Header />
         <Outlet />
     </div>
   )
